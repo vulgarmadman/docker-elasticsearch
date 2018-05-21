@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch-oss:6.2.4
+FROM docker.elastic.co/elasticsearch/elasticsearch-oss:6.2.3
 
 MAINTAINER VulgarMadMan <alex@ccautomation.uk>
 

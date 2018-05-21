@@ -3,7 +3,7 @@
 ## State
 
 * OpenJDK JRE 8u161
-* Elasticsearch 6.2.4
+* Elasticsearch 6.2.3
 
 ## Usage
 
@@ -42,7 +42,7 @@ docker run --name elasticsearch-master -it \
      -e "NODE_INGEST=false" \
      -e "ES_JAVA_OPTS=-Xms1g -Xmx1g" \
      -p 9300:9300 \
-     vulgarmadman/docker-elasticsearch:6.2.4
+     vulgarmadman/docker-elasticsearch:6.2.3
 
 ```
 
@@ -60,6 +60,6 @@ docker run --name elasticsearch-data -it \
      -e "NODE_INGEST=false" \
      -e "ES_JAVA_OPTS=-Xms4g -Xmx4g" \
      -p 9200:9200 \
-     vulgarmadman/docker-elasticsearch:6.2.4
+     vulgarmadman/docker-elasticsearch:6.2.3
 
 ```
